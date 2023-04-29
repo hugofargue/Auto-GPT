@@ -5,7 +5,7 @@ import pkg_resources
 
 def main():
     requirements_file = sys.argv[1]
-    with open(requirements_file, "r") as f:
+    with open(requirements_file) as f:
         required_packages = [
             line.strip().split("#")[0].strip() for line in f.readlines()
         ]
