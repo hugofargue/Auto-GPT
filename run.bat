@@ -6,3 +6,4 @@ if errorlevel 1 (
 )
 python -m autogpt %*
 pause
+ 
